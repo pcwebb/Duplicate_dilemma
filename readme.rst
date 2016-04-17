@@ -63,8 +63,8 @@ Acceptance Story
 | **Given** that I have different types of mailing lists
 | **And** I would like to use specific parameters
 | **When** I click the *Select* button
-| **Then** I will be taken to a form to input my parameters (*Main*, *Special
-Mailing*, and/or *Subscriber*)
+| **Then** I will be taken to a form to input my parameters (*Main*, *Special Mailing*, 
+ and/or *Subscriber*)
 | **And** a list with *Main*, *Special Mailing*, and or *Subscriber*
  will generate based on those selected parameters
 | **And** a *Delete* button will appear beside each contact which will delete entry
