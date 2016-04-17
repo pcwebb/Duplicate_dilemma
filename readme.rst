@@ -69,7 +69,7 @@ Mailing*, and/or *Subscriber*)
  will generate based on those selected parameters
 | **And** a *Delete* button will appear beside each contact which will delete entry
  when selected
-
+| 
 
 
 *******
