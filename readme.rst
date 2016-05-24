@@ -54,45 +54,24 @@ Acceptance Story
 | **Scenario 1:** Inputting the contact
 | **Given** that I have a digitized/scanned OCR list
 | **And** I have exported that list into a database
-| **When** I click the  *Import* button
+| **When** I import the file
 | **Then** the contact duplicates will be eliminated
-| **And** I will be taken to a screen containing the newly created list
+| **And** a new main list will be generated
 | 
 
 | **Scenario 2:** Categorizing the contacts
 | **Given** that I have different types of mailing lists
 | **And** I would like to use specific parameters
-| **When** I click the *Select* button
-| **Then** I will be taken to a form to input my parameters (*Main*, *Special Mailing*, 
- and/or *Subscriber*)
-| **And** a list with *Main*, *Special Mailing*, and or *Subscriber*
+| **When** I open the category function
+| **Then** I will be able to input the email address
+| **And** enter the parameters ( *General*, *Special Mailing*, and or *Subscriber*)
  will generate based on those selected parameters
-| **And** a *Delete* button will appear beside each contact which will delete entry
- when selected
 | 
 
-
-*******
-License
-*******
-The MIT License (MIT)
-
-Copyright (c) [2016] [Pamela Webb]
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+| **Scenario 3:** Deleting the contacts
+| **Given** that people unsubscribe to mailing list
+| **And** I would like to delete the contact
+| **When** I open the delete function
+| **Then** I will be able to input the email address 
+| **And** when prompted, enter *Yes* to delete the contact 
+| 
