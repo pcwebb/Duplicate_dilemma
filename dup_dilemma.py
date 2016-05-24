@@ -7,10 +7,6 @@
    file then checks duplicates against the original contact file and appends to
    that list. It then exports data to a comma separated file for
    uploading into other programs.
-
-   To upload csv file type start().
-   To delete contact type delete().
-   To change category type categories().
 """
 
 import csv
@@ -200,3 +196,8 @@ def open_main():
     except IOError:
         print 'No main contact file exists.'
     return ncontacts
+
+if __name__ == '__main__':
+    print 'To upload csv file type start().'
+    print 'To delete contact type delete().'
+    print 'To change category type categories().'
