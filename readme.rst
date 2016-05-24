@@ -63,9 +63,9 @@ Acceptance Story
 | **Given** that I have different types of mailing lists
 | **And** I would like to use specific parameters
 | **When** I open the category function
-| **Then** I will be able to input the email address
-| **And** enter the parameters ( *General*, *Special Mailing*, and or *Subscriber*)
- will generate based on those selected parameters
+| **Then** I will be able to input the email address,
+| enter the parameters ( *General*, *Special Mailing*  or *Subscriber*)
+|**And** the list will generate the updated parameter
 | 
 
 | **Scenario 3:** Deleting the contacts
